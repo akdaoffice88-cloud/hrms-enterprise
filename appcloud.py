@@ -8,7 +8,7 @@ st.set_page_config(page_title="ENTERPRISE HRMS v8 – PRO MAX", layout="wide")
 
 # ================= SUPABASE CONNECTION ================= #
 
-SUPABASE_URL = "https://bpxnyfbsfjqjvitjwnp.supabase.co"
+SUPABASE_URL = "https://bpxpyfbsfigicwijtvpp.supabase.co"
 SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImJweHB5ZmJzZmlnaWN3aWp0d3BwIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzI2MTA2ODAsImV4cCI6MjA4ODE4NjY4MH0.mQ_2pKOB0Uvt5INeukAV8P4_yrKiHWq1rPjsx41MXrQ"
 
 supabase = create_client(SUPABASE_URL, SUPABASE_KEY)
@@ -177,4 +177,5 @@ else:
     elif role == "AGM":
         agm_panel()
     elif role == "Admin":
+
         admin_panel()
